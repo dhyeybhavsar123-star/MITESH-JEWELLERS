@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+:root {
+  --ivory: #FDFBF7;
+  --gold: #C9973A;
+  --charcoal: #1A1A1A;
+  --marble: #F4F0E8;
+}
+
+/* 1. Global tag overrides */
+body, html {
+  background-color: #121212 !important;
+  color: #FDFBF7 !important;
+}
+
+/* Scrollbar luxury */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9973A;
+  border-radius: 3px;
+}
+
+/* 2. Global background utility overrides to force Dark luxury */
+.bg-\[\#FAF8F5\], 
+#homepage-root, 
+#collections-view-root, 
+#pdp-root, 
+#bridal-studio-root, 
+#checkout-view-root, 
+#checkout-empty-fallback,
+#size-guide-modal-overlay > div,
+.bg-amber-50\/20 {
+  background-color: #121212 !important;
+}
+
+/* Modal backgrounds and card containers */
+.bg-white, 
+#booking-success-box, 
+#exit-intent-box, 
+#whatsapp-box-panel, 
+#ar-tryon-frame, 
+#main-cart-drawer, 
+#main-wishlist-drawer,
+div[id^="collections-card-"],
+div[id^="pdp-related-card-"],
+div[id^="pdp-review-"],
+div[id^="bridal-regional-card-"],
+div[id^="checkout-cart-item-"] {
+  background-color: #1A1A1A !important;
+  border-color: rgba(201, 151, 58, 0.15) !important;
+}
+
+/* Mobile sticky PDP drawer bottom panel */
+#mobile-pdp-sticky-drawer, 
+#sticky-bottom-bar,
+#mobile-search-prompt,
+#size-guide-modal-overlay > div ~ div {
+  background-color: rgba(26, 26, 26, 0.95) !important;
+  border-color: rgba(201, 151, 58, 0.25) !important;
+}
+
+/* Background highlights */
+.bg-[#F5F2EB], .bg-\[\#F5F2EB\], .bg-[#FAF8F5]\/50, .bg-\[\#FAF8F5\]\/50, .bg-[#F5F2EB]\/50, .bg-\[\#F5F2EB\]\/50 {
+  background-color: #242424 !important;
+}
+.bg-gray-50, .bg-gray-100, .bg-[#FAF8F5]\/30, .bg-\[\#FAF8F5\]\/30 {
+  background-color: #1E1E1E !important;
+}
+
+/* Emerald elements, notifications & trust tags in dark mode */
+.bg-emerald-50 {
+  background-color: rgba(16, 185, 129, 0.1) !important;
+}
+.text-emerald-700 {
+  color: #34D399 !important;
+}
+.bg-emerald-500 {
+  background-color: #10B981 !important;
+}
+.bg-yellow-50 {
+  background-color: rgba(201, 151, 58, 0.1) !important;
+}
+.text-yellow-800 {
+  color: #C9973A !important;
+}
+.border-yellow-200 {
+  border-color: rgba(201, 151, 58, 0.3) !important;
+}
+
+/* 3. Global text utility overrides to Sophisticated Ivory & Mineral gray */
+.text-\[\#1C1B19\], 
+.text-\[\#2C2A29\], 
+.text-gray-900, 
+.text-zinc-900, 
+.text-black,
+.hover\:text-\[\#1C1B19\]:hover,
+button[id^="size-"]:not(.border-\[\#C9973A\]) {
+  color: #FDFBF7 !important;
+}
+
+.text-gray-800, 
+.text-gray-700, 
+.text-gray-600, 
+.text-zinc-700,
+p[class*="text-gray-"] {
+  color: #E2DFD9 !important;
+}
+
+.text-gray-500, 
+.text-gray-400, 
+.text-\[\#A29E9A\],
+span[class*="text-gray-"] {
+  color: #A29E9A !important;
+}
+
+/* 4. Inputs, selects & textareas */
+input[type="text"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="date"], 
+select, 
+textarea {
+  background-color: #1F1F1F !important;
+  color: #FDFBF7 !important;
+  border: 1px solid rgba(201, 151, 58, 0.18) !important;
+  border-radius: 12px !important;
+}
+input::placeholder {
+  color: #71717A !important;
+}
+input[type="text"]:focus, 
+input[type="tel"]:focus, 
+input[type="email"]:focus, 
+input[type="date"]:focus, 
+select:focus, 
+textarea:focus {
+  border-color: #C9973A !important;
+  box-shadow: 0 0 0 1px rgba(201, 151, 58, 0.3) !important;
+  outline: none !important;
+}
+
+/* 5. Luxury Gold Border definitions */
+.border-gray-100, 
+.border-gray-200, 
+.border-gray-300, 
+.border-\[\#F5F2EB\], 
+.border-\[\#FAF8F5\] {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.border-black\/5, 
+.border-black\/10,
+.border-\[\#C9973A\]\/10,
+.border-\[\#C9973A\]\/15,
+.border-\[\#C9973A\]\/20,
+.border-\[\#C9973A\]\/30 {
+  border-color: rgba(201, 151, 58, 0.2) !important;
+}
+
+/* Buttons and interactive states */
+.hover\:bg-\[\#FAF8F5\]:hover {
+  background-color: #121212 !important;
+}
+.hover\:border-\[\#C9973A\]:hover {
+  border-color: #C9973A !important;
+}
+.bg-white\/50 {
+  background-color: rgba(26, 26, 26, 0.5) !important;
+}
+
+/* Specific elements like active filters in collections */
+button.border-\[\#C9973A\], 
+button.bg-\[\#C9973A\]\/10,
+button.text-\[\#C9973A\] {
+  border-color: #C9973A !important;
+  color: #C9973A !important;
+  background-color: rgba(201, 151, 58, 0.1) !important;
+}
+
+/* Fix default text elements in white background components like Whatsapp widget info */
+#whatsapp-box-panel p,
+#booking-success-box p,
+#exit-intent-box p {
+  color: #E2DFD9 !important;
+}
+#pdp-reviews-zone p {
+  color: #E2DFD9 !important;
+}
+
+/* High contrast active state titles */
+span.text-\[\#C9973A\] {
+  color: #C9973A !important;
+}

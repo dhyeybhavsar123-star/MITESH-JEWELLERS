@@ -1,0 +1,10 @@
+{
+  "name": "Svarna Heritage Gold Jewellery",
+  "description": "Premium D2C gold jewellery e-commerce for the Indian market, featuring BIS-hallmarked 18K and 22K gold, bridal consultation, and AR try-on.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
