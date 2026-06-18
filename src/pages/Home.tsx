@@ -20,7 +20,7 @@ export default function Home() {
     {
       title: 'Grand Bridal Studio',
       subtitle: 'Temple & Royal Jadau Sets',
-      image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80',
       category: 'Bridal Sets',
       action: () => {
         setActivePage('bridal');
@@ -29,7 +29,7 @@ export default function Home() {
     {
       title: 'Heritage Necklaces',
       subtitle: 'Polki & Antique Statement Pieces',
-      image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?auto=format&fit=crop&w=800&q=80',
       category: 'Necklaces',
       action: () => {
         setSelectedCategory('Necklaces');
@@ -39,7 +39,7 @@ export default function Home() {
     {
       title: 'Imperial Earrings',
       subtitle: 'Kundan Jhumkas & Chandeliers',
-      image: 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=800&q=80',
       category: 'Earrings',
       action: () => {
         setSelectedCategory('Earrings');
@@ -49,7 +49,7 @@ export default function Home() {
     {
       title: 'Daily Wear Aura',
       subtitle: 'Sleek 18K Modern Cuffs & Hoops',
-      image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=800&q=80',
       category: 'Bangles & Bracelets',
       action: () => {
         setSelectedCategory('Bangles & Bracelets');
@@ -66,12 +66,13 @@ export default function Home() {
         {/* Full screen background */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1920&q=80"
-            alt="Royal Heritage Indian Bride jewelry background"
+            src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1920&q=80"
+            alt="Royal Heritage Indian Wedding and Festival Ceremony background"
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover brightness-[40%] contrast-[105%]"
+            className="w-full h-full object-cover brightness-[32%] contrast-[105%] scale-102 transition-transform duration-1000"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-transparent to-black/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-black/35" />
+          <div className="absolute inset-0 bg-radial-gradient from-transparent via-black/10 to-[#121212]/80 opacity-70" />
         </div>
 
         {/* Content Box */}

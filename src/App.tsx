@@ -10,6 +10,7 @@ import Header from './components/Header';
 import BottomBar from './components/BottomBar';
 import WhatsAppWidget from './components/WhatsAppWidget';
 import ExitIntentWishlist from './components/ExitIntentWishlist';
+import FestiveDecoration from './components/FestiveDecoration';
 
 // Pages
 import Home from './pages/Home';
@@ -55,9 +56,12 @@ function ShopContent() {
   return (
     <div id="svarna-lifestyle-application" className="min-h-screen bg-[#121212] flex flex-col justify-between font-sans subpixel-antialiased selection:bg-[#C9973A] selection:text-white text-[#FDFBF7]">
       
-      <div>
+      <div className="relative">
         {/* Sticky Global Live Gold Rate Header ticker */}
         <GoldRateTicker />
+
+        {/* Traditional Indian Wedding and Festival Garlands and Lights */}
+        <FestiveDecoration />
 
         {/* Brand Luxury Navigation Header */}
         <Header />

@@ -26,7 +26,7 @@ export default function BridalStudio() {
       region: 'North Indian Bridal Collection',
       title: 'Grand Rajkumari Jadau Set',
       desc: 'Heavy 22-Karat gold collars layered with pristine Kundan work, multi-strand natural basra seed pearls and emerald beads.',
-      image: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80',
       customizableField: 'Custom cluster pearls & dori tassels included'
     },
     {
@@ -47,7 +47,7 @@ export default function BridalStudio() {
       region: 'Marwari Royal Aad Chest Collar',
       title: 'The Jodhpur Meenakari Aad Set',
       desc: 'Extravagant rectangular chest collar showcasing intense geometric wire loops, dense Polki bezels, and complex lattice-worked reverse meenakari.',
-      image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1632345031435-8797b2d58045?auto=format&fit=crop&w=800&q=80',
       customizableField: 'Sourced from the heart of Johari Bazaar Rajasthan'
     }
   ];
@@ -85,12 +85,12 @@ export default function BridalStudio() {
       <section id="bridal-hero" className="relative h-[80vh] flex items-center justify-center overflow-hidden bg-black select-none">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1920&q=80"
             alt="Royal bridal showcase background"
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover brightness-[36%] object-top scale-102"
+            className="w-full h-full object-cover brightness-[34%] object-top scale-102"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FAF8F5] via-black/10 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-black/10 to-transparent" />
         </div>
 
         <div className="relative text-center px-4 max-w-3xl space-y-6">
