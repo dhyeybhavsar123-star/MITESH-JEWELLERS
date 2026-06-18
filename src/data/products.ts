@@ -70,36 +70,35 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'p2',
-    name: 'Kalyani Divine Temple Haramu Necklace',
-    shortDescription: 'Intricately handcrafted 22K gold long necklace with Kasu coins and a masterfully chased Lakshmi pendant.',
-    description: 'An heirloom piece that channels the temple architecture of Madurai. Handcrafted in 22K yellow gold, the neckpiece forms an exquisite chain of "Kasu" (propitious gold coins), each engraved with the goddess of wealth, Lakshmi. It culminates in a grand, heavy central pendant depicted using traditional south Indian "repoussé" sheet gold work. Garnished with select natural cabochon rubies.',
+    name: 'Mitesh 18K Heart-Rose Grace Pendant Set',
+    shortDescription: 'Exquisite 18K gold matching double-heart stud earrings and a hollow heart pendant featuring a delicate blooming gold rose.',
+    description: 'A masterpiece from Mitesh Jewellers designed for modern elegance and festive wear. Handcrafted in premium 18K yellow gold with a luxurious certified net weight of exactly 2.818 grams (GW: 2.818 / NW: 2.818). This beautiful suite includes a pair of fine heart-shaped stud earrings bordered with brilliant crystal-precision details, paired with a matching open-heart necklace pendant showcasing a beautifully detailed gold rose blossom inside the frame.',
     category: 'Necklaces',
-    karat: '22K',
-    goldWeight: 45.2,
-    makingChargePerGram: 380,
-    wastagePercent: 1.2,
-    style: 'Temple',
-    rating: 4.8,
-    reviewsCount: 24,
+    karat: '18K',
+    goldWeight: 2.818,
+    makingChargePerGram: 450,
+    wastagePercent: 0.0,
+    style: 'Contemporary',
+    rating: 4.9,
+    reviewsCount: 37,
     isBestseller: true,
-    certificationNo: 'BIS-HM-916-4839201',
-    length: '24 Inches with secure adjustable screw hook',
+    certificationNo: 'BIS-HM-750-2818045',
+    length: '18 Inches with secure matching spring neck chain',
     images: [
-      'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=800&q=80', // Temple work focal
-      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=800&q=80', // Henna-clad traditional photo
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80', // Gold layout
-      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80'
+      'https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=800&q=80', // Heart pendant photo
+      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80', // Elegant jewelry display
+      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80'
     ],
     reviews: [
       {
         id: 'r2_1',
-        userName: 'Sujatha Iyer',
+        userName: 'Ananya Shrivastava',
         userType: 'Verified Buyer',
         rating: 5,
-        comment: 'Incredible detail on the Lakshmi pendant. It has premium weight and looks like a royal antique passed down through generations.',
-        date: '2026-03-01',
-        location: 'Chennai, TN',
-        avatarSeed: 'sujatha'
+        comment: 'This heart and rose pendant set is incredibly delicate and shiny! The gross and net weight (2.818g) is exactly as shown, and the laser hallmarks give complete peace of mind. Highly recommend for anniversary gifting.',
+        date: '2026-06-11',
+        location: 'Vadodara, GJ',
+        avatarSeed: 'ananya'
       }
     ]
   },
