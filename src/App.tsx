@@ -10,7 +10,6 @@ import Header from './components/Header';
 import BottomBar from './components/BottomBar';
 import WhatsAppWidget from './components/WhatsAppWidget';
 import ExitIntentWishlist from './components/ExitIntentWishlist';
-import FestiveDecoration from './components/FestiveDecoration';
 
 // Pages
 import Home from './pages/Home';
@@ -59,9 +58,6 @@ function ShopContent() {
       <div className="relative">
         {/* Sticky Global Live Gold Rate Header ticker */}
         <GoldRateTicker />
-
-        {/* Traditional Indian Wedding and Festival Garlands and Lights */}
-        <FestiveDecoration />
 
         {/* Brand Luxury Navigation Header */}
         <Header />
