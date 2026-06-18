@@ -197,3 +197,12 @@ button.text-\[\#C9973A\] {
 span.text-\[\#C9973A\] {
   color: #C9973A !important;
 }
+
+/* Styling focus-mode selection: Brand Story text color to match the gold brand color of MITESH */
+#brand-story,
+#brand-story h3,
+#brand-story p,
+#brand-story span {
+  color: #C9973A !important;
+}
+
