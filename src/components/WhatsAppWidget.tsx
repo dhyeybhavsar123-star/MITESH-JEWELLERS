@@ -14,7 +14,7 @@ export default function WhatsAppWidget() {
     setSubmitted(true);
     setTimeout(() => {
       // Simulate launching real whatsapp chat
-      const message = encodeURIComponent(`Namaste Svarna Team, my name is ${formData.name}. I would like to inquire regarding: ${formData.concern}.`);
+      const message = encodeURIComponent(`Namaste Mitesh Team, my name is ${formData.name}. I would like to inquire regarding: ${formData.concern}.`);
       window.open(`https://api.whatsapp.com/send?phone=919999999999&text=${message}`, '_blank');
       setIsOpen(false);
       setSubmitted(false);
@@ -31,12 +31,12 @@ export default function WhatsAppWidget() {
             <div className="flex items-center gap-2.5">
               <div className="relative">
                 <div className="w-10 h-10 bg-[#C9973A] rounded-full flex items-center justify-center font-serif font-black text-sm">
-                  S
+                  M
                 </div>
                 <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-400 border-2 border-[#075E54] rounded-full" />
               </div>
               <div>
-                <h4 className="font-serif text-sm font-semibold text-white">Svarna Heritage Concierge</h4>
+                <h4 className="font-serif text-sm font-semibold text-white">Mitesh Heritage Concierge</h4>
                 <p className="text-[10px] text-teal-100 flex items-center gap-1">Replies under 5 mins • Online</p>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function WhatsAppWidget() {
           {/* Chat Body */}
           <div className="p-4 bg-[#F5F2EB]/40 min-h-[160px] flex flex-col justify-between">
             <p className="text-xs bg-white text-[#2C2A29] rounded-xl p-3 shadow-xs border border-teal-100/30 leading-normal max-w-[90%]">
-              Namaste! 🙏 Welcome to Svarna. Talk live to our seasoned gold and bridal jewellery consultants. Would you like a live video verification of of our BIS-hallmarked hallmarks ?
+              Namaste! 🙏 Welcome to Mitesh Jewellers. Talk live to our seasoned gold and bridal jewellery consultants. Would you like a live video verification of of our BIS-hallmarked hallmarks ?
             </p>
 
             {submitted ? (

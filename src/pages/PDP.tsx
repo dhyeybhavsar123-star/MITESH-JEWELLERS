@@ -99,7 +99,7 @@ export default function PDP() {
         
         {/* Breadcrumbs */}
         <div id="breadcrumbs" className="text-xs text-[#A29E9A] uppercase tracking-wider mb-6 flex items-center gap-1">
-          <span className="hover:text-[#1C1B19] cursor-pointer" onClick={() => setActivePage('home')}>Svarna</span>
+          <span className="hover:text-[#1C1B19] cursor-pointer" onClick={() => setActivePage('home')}>Mitesh Jewellers</span>
           <span>/</span>
           <span className="hover:text-[#1C1B19] cursor-pointer" onClick={() => setActivePage('collections')}>Collections</span>
           <span>/</span>
@@ -548,7 +548,7 @@ export default function PDP() {
           <div className="absolute inset-0 bg-black/60" onClick={() => setShowSizeGuide(false)} />
           <div className="relative bg-[#FAF8F5] border border-[#C9973A]/30 p-6 rounded-2xl shadow-2xl max-w-sm w-full text-left">
             <h3 className="font-serif font-bold text-base text-[#1C1B19] tracking-wider uppercase border-b border-[#F5F2EB] pb-2">
-              Svarna Sizing Standards
+              Mitesh Sizing Standards
             </h3>
             
             <p className="text-xs text-[#A29E9A] leading-relaxed mt-3">

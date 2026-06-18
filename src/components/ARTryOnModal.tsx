@@ -93,7 +93,7 @@ export default function ARTryOnModal({ product, onClose }: ARTryOnModalProps) {
           <div className="flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-[#C9973A] animate-pulse" />
             <h3 className="font-serif font-black text-sm text-white tracking-widest uppercase">
-              Svarna AR Try-on Studio
+              Mitesh AR Try-on Studio
             </h3>
           </div>
           <button

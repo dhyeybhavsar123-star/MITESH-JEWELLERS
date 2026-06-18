@@ -273,7 +273,7 @@ export const PRODUCTS: Product[] = [
         userName: 'Lakshmi Narayanan',
         userType: 'Bridal Buyer',
         rating: 5,
-        comment: 'My daughter looked like a queen in this set for her wedding. Worth every rupee! The customer support from Svarna was remarkable - they sent a home consultant with the test kit.',
+        comment: 'My daughter looked like a queen in this set for her wedding. Worth every rupee! The customer support from Mitesh Jewellers was remarkable - they sent a home consultant with the test kit.',
         date: '2026-02-14',
         location: 'Kochi, KL',
         avatarSeed: 'lakshmi'

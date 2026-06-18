@@ -123,13 +123,13 @@ export default function BottomBar() {
               <Sparkles className="w-6 h-6" />
             </div>
             
-            <h3 className="font-serif font-bold text-lg text-[#2C2A29]">Svarna Royale Elite</h3>
+            <h3 className="font-serif font-bold text-lg text-[#2C2A29]">Mitesh Royale Elite</h3>
             <p className="text-[11px] uppercase tracking-widest text-[#C9973A] font-semibold mt-0.5">Indian Heritage Loyalty Circle</p>
             
             <div className="mt-4 bg-[#1C1B19] rounded-xl p-4 text-white text-left space-y-2">
               <div className="flex justify-between text-xs border-b border-[#FAF8F5]/10 pb-2">
                 <span className="text-[#A29E9A]">Membership ID:</span>
-                <span className="font-mono text-[#C9973A] font-semibold">SVR-291-88</span>
+                <span className="font-mono text-[#C9973A] font-semibold">MTS-291-88</span>
               </div>
               <div className="flex justify-between text-xs border-b border-[#FAF8F5]/10 pb-2">
                 <span className="text-[#A29E9A]">Loyalty Points Balance:</span>

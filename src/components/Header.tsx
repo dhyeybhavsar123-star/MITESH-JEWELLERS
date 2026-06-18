@@ -96,11 +96,11 @@ export default function Header() {
             <div className="text-center flex flex-col items-center select-none cursor-pointer" onClick={() => setActivePage('home')}>
               <div className="flex items-center gap-1.5">
                 <span className="font-serif text-[#C9973A] text-xl font-bold tracking-widest sm:text-2xl">
-                  S V A R N A
+                  M I T E S H
                 </span>
               </div>
               <span className="text-[8px] sm:text-[9px] tracking-[0.4em] text-[#A29E9A] uppercase font-light mt-0.5">
-                Heritage Gold & Jewels
+                J E W E L L E R S
               </span>
             </div>
 
@@ -459,7 +459,7 @@ export default function Header() {
           <div className="absolute inset-0 bg-black/60 backdrop-blur-xs" onClick={() => setMobileMenuOpen(false)} />
           <div className="absolute inset-y-0 left-0 w-4/5 max-w-xs bg-[#FAF8F5] flex flex-col p-6 shadow-2xl">
             <div className="flex items-center justify-between mb-8 pb-4 border-b border-[#F5F2EB]">
-              <span className="font-serif text-[#C9973A] font-bold tracking-widest text-lg">SVARNA MENU</span>
+              <span className="font-serif text-[#C9973A] font-bold tracking-widest text-lg">MITESH MENU</span>
               <button id="close-mobile-menu" onClick={() => setMobileMenuOpen(false)} className="text-[#2C2A29]">
                 <X className="w-5 h-5" />
               </button>
@@ -500,7 +500,7 @@ export default function Header() {
               <div className="flex items-center gap-2.5 text-xs text-[#A29E9A] mb-2">
                 <Landmark className="w-4 h-4 text-[#C9973A]" /> BIS Hallmark Registered • 100% Insured Shipping
               </div>
-              <p className="text-[11px] text-[#A29E9A]">For inquiries, reach our heritage boutique at <span className="text-[#C9973A] font-semibold">1800-GOLD-SVARNA</span></p>
+              <p className="text-[11px] text-[#A29E9A]">For inquiries, reach our heritage boutique at <span className="text-[#C9973A] font-semibold">1800-GOLD-MITESH</span></p>
             </div>
           </div>
         </div>

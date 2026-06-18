@@ -205,7 +205,7 @@ export default function Home() {
             
             {/* Left Column Text details */}
             <div className="space-y-6">
-              <span className="text-xs tracking-widest text-[#C9973A] uppercase font-bold block">The Legacy of Svarna</span>
+              <span className="text-xs tracking-widest text-[#C9973A] uppercase font-bold block">The Legacy of Mitesh Jewellers</span>
               <h3 className="font-serif text-[#1C1B19] text-2xl sm:text-4xl font-extrabold leading-tight">
                 世代相伝 — Handcrafted by Generational Karigars since 1912
               </h3>
@@ -368,7 +368,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-2 mb-16">
             <p className="text-xs uppercase tracking-widest text-[#C9973A] font-semibold">Verified Voices of Praise</p>
-            <h2 className="font-serif text-[#1C1B19] text-3xl sm:text-4xl font-extrabold">Patrons of Swarna</h2>
+            <h2 className="font-serif text-[#1C1B19] text-3xl sm:text-4xl font-extrabold">Patrons of Mitesh Jewellers</h2>
             <div className="w-16 h-0.5 bg-[#C9973A] mx-auto mt-3" />
           </div>
 
@@ -379,7 +379,7 @@ export default function Home() {
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-[#C9973A]" />)}
               </div>
               <p className="text-xs text-[#2C2A29] leading-relaxed italic">
-                "Finding jewelry with completely transparent billing is a rare pleasure in India. Svarna showed exact weight and taxes. The Polki Choker reached Bangalore in 3 days in an secure box with its BIS 916 certificate clear."
+                "Finding jewelry with completely transparent billing is a rare pleasure in India. Mitesh Jewellers showed exact weight and taxes. The Polki Choker reached Bangalore in 3 days in an secure box with its BIS 916 certificate clear."
               </p>
               <div className="flex items-center gap-3 pt-4 border-t border-[#FAF8F5]">
                 <div className="w-9 h-9 bg-[#C9973A]/10 text-[#C9973A] font-serif font-black rounded-full flex items-center justify-center text-xs">A</div>
@@ -411,7 +411,7 @@ export default function Home() {
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-[#C9973A]" />)}
               </div>
               <p className="text-xs text-[#2C2A29] leading-relaxed italic">
-                "Svarna has become my defacto for office rings and hoops. The sleek cuffs in 18K gold are light weight, and lock very securely. Highly recommend the virtual AR trial - it represents accurate sizes."
+                "Mitesh Jewellers has become my defacto for office rings and hoops. The sleek cuffs in 18K gold are light weight, and lock very securely. Highly recommend the virtual AR trial - it represents accurate sizes."
               </p>
               <div className="flex items-center gap-3 pt-4 border-t border-[#FAF8F5]">
                 <div className="w-9 h-9 bg-[#C9973A]/10 text-[#C9973A] font-serif font-black rounded-full flex items-center justify-center text-xs">K</div>
@@ -429,12 +429,12 @@ export default function Home() {
       {/* Footer Branding section */}
       <footer className="bg-[#1C1B19] py-16 text-[#A29E9A] border-t border-[#C9973A]/15 pb-24 lg:pb-16 text-center select-none text-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-          <p className="font-serif text-white text-lg tracking-widest">S V A R N A</p>
+          <p className="font-serif text-white text-lg tracking-widest">M I T E S H  J E W E L L E R S</p>
           <p className="max-w-md mx-auto text-[11px] leading-relaxed">
-            Svarna Gold & Jewels is registered with the Bureau of Indian Standards (BIS) under certification code HM-916. Live MCX gold feed values updated under licensed IBJA protocols.
+            Mitesh Jewellers is registered with the Bureau of Indian Standards (BIS) under certification code HM-916. Live MCX gold feed values updated under licensed IBJA protocols.
           </p>
           <div className="w-12 h-[1px] bg-[#C9973A] mx-auto my-4" />
-          <p className="text-[10px]">© 2026 Svarna Heritage Private Limited. All Rights Reserved. Designed for premium Indian D2C.</p>
+          <p className="text-[10px]">© 2026 Mitesh Jewellers Private Limited. All Rights Reserved. Designed for premium Indian D2C.</p>
         </div>
       </footer>
 
